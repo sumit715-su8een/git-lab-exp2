@@ -1,0 +1,19 @@
+name: Push Event Workflow
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print a message
+        run: echo "Code Pushed Successfully!"
+
+      - name: Show date
+        run: date
+
+      - name: show files
+        run: ls
