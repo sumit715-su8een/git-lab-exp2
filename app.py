@@ -1,3 +1,7 @@
-def hello world():
-  return "Hello, World!"if name == "main":
-    printf(hello world())
+
+def hello_world():
+    return "Hello, World!"
+
+
+if __name__ == "__main__":
+    print(hello_world())
