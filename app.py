@@ -1,5 +1,5 @@
 # Automatic pipeline testing
-def hello_world():
+def hello_world()
     return "Hello, DevOps!"
 
 def hello_world():
